@@ -3,19 +3,22 @@ body {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    color: lightpink;
+    color: rgba(88, 85, 85, 0.952);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-item{
     background-color: none;
-    
-
-
 }
 
 .nav-link{
     background-color: none;
+}
+
+nav{
+    margin-bottom: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .logo {
@@ -23,7 +26,30 @@ body {
     font-size: 2.5rem;
 }
 
-div.card{
+div.card {
     overflow: hidden;
-    padding: 30px, 30px, 30px, 30px;
-  }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+footer {
+    clear: both;
+    margin: 0;
+    padding: .3em;
+    color: #000000;
+    font-variant: small-caps;
+    font-size: .813em;
+    text-align: center;
+    border-top: 1px dotted #cccccc;
+    background-color: rgba(236, 232, 232, 0.5);
+}
+
+a.icon{
+    padding: 3em;
+}
+
+
